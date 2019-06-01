@@ -11,4 +11,15 @@ import scala.io.Source
 object HelloWorld extends App{
   println("Hello World!")
   println(2+3)
+
+  // A variable able to change
+  var MyName = "Sai\n"
+  print(MyName)
+
+  // constant can never change
+  val language = "Scala"
+  print(language)
+
 }
+
+
