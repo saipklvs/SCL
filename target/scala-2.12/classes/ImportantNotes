@@ -1,3 +1,21 @@
 Defining the variable in Scala:
 var hello = helloworld
 
+Data Tyes:
+Bytes
+Boolean
+Char
+Short
+Int
+Long
+Float
+Double
+
+Big Int
+
+val l = BigInt("Add your integer here")
+
+import scala.math._
+
+
+
