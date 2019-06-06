@@ -109,6 +109,22 @@ object ScalaTut {
     // Get String length
     println("String length " + randSent.length())
 
+    // Concatenate strings
+    println(randSent.concat("and explore"))
+
+    println("Are strings equal " + "I saw a dragon".equals(randSent))
+
+    println("dragon starts at index ", randSent.indexOf("dragon"))
+
+  // Convert an String into a array
+    val randArray = randSent.toArray
+
+    for (v <- randArray){
+      println(v)
+    }
+
+
+    //Functions:
 
   }
 }

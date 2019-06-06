@@ -18,4 +18,11 @@ val l = BigInt("Add your integer here")
 import scala.math._
 
 
+// printf style format specifiers
+// %c : Characters
+// %d : Integers
+// %f : Floating Point Numbers
+// %s : Strings
+
+
 
