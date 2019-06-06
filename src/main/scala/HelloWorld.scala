@@ -86,6 +86,30 @@ object ScalaTut {
       }
     }
 
+    var name = "SCALA"
+/*
+    do{
+      println("Guess the Letter")
+      name = readLine
+    }while (name == "SCALA")
+*/
+    println("You guessed the correct letter", name)
+
+    val namen = "Pavan"
+    val age = 39
+    val weight = 175.5
+    println(s"Hello $name")
+    println(f"I am ${age + 1} and weigh $weight%.2f")
+
+    var randSent = "I saw a dragon fly by"
+
+    // Get the 3rd Index value
+    println("3rd Index: " + randSent(3))
+
+    // Get String length
+    println("String length " + randSent.length())
+
+
   }
 }
 
