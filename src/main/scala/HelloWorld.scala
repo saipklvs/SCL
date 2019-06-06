@@ -43,31 +43,31 @@ if(age <= 15){
 
 
 object ScalaTut {
-  def main(args: Array[String]): Unit ={
+  def main(args: Array[String]): Unit = {
 
     var i = 0
 
-    while(i <= 10){
+    while (i <= 10) {
       println(i)
-      i = i+ 1
+      i = i + 1
     }
 
     // For loops
-    for (i <- 10 to 20){
+    for (i <- 10 to 20) {
       print(i)
     }
-   var myvariable = "Pavan"
+    var myvariable = "Pavan"
     // Random letters
-    for(i <- 0 until myvariable.length){
+    for (i <- 0 until myvariable.length) {
       println(myvariable(i))
     }
     // Scala list
-    val alist = List(1,2,3,4,5)
-    for (i <- alist){
+    val alist = List(1, 2, 3, 4, 5)
+    for (i <- alist) {
       println(i)
     }
 
-    for (i <- 1 to 5; j <- 6 to 10){
+    for (i <- 1 to 5; j <- 6 to 10) {
       print(i)
       println(j)
     }
@@ -87,7 +87,7 @@ object ScalaTut {
     }
 
     var name = "SCALA"
-/*
+    /*
     do{
       println("Guess the Letter")
       name = readLine
@@ -116,15 +116,53 @@ object ScalaTut {
 
     println("dragon starts at index ", randSent.indexOf("dragon"))
 
-  // Convert an String into a array
+    // Convert an String into a array
     val randArray = randSent.toArray
 
-    for (v <- randArray){
+    for (v <- randArray) {
       println(v)
     }
 
 
     //Functions:
+    /*
+    def funcName(param1:dataType, param2:dataType) : returnType = {
+    function body
+    return ?? the value to return
+    }
+     */
+
+    def getSum(num1: Int = 1, num2: Int = 1): Int = {
+    return (num1+num2)
+    }
+
+    println("5 + 4 = " + getSum(5,4))
+
+    def sayHi(): Unit = {
+      println("Hi how are you")
+    }
+
+    def getSum2(args: Int*) : Int = {
+      var sum : Int = 0
+      for(num <- args){
+        sum += num
+      }
+      sum
+    }
+
+    println("getSum2: " + getSum2(1,2,3,4,5))
+
+    def recursion(num: BigInt) : BigInt =  {
+    if (num <= 1) {
+      1
+    }
+    else
+      num * recursion(num - 1)
+    }
+
+    print(recursion(5))
+
+
 
   }
 }
