@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="11a692b0-85ad-4e51-a666-a8820756bdbd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cb4c14a1731404cc4f91$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cb4c14a1731404cc4f91.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cb4c14a1731404cc4f91.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/HelloWorld.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/HelloWorld.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ScalaTut$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ScalaTut$.class" afterDir="false" />
     </list>
@@ -53,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/HelloWorld.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="162" column="21" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
+            <state relative-caret-position="447">
+              <caret line="345" selection-start-line="345" selection-end-line="345" />
               <folding>
                 <element signature="e#29#70#0" expanded="true" />
               </folding>
@@ -100,10 +96,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-719" />
-    <option name="y" value="-968" />
-    <option name="width" value="1291" />
-    <option name="height" value="702" />
+    <option name="x" value="2146" />
+    <option name="y" value="-1081" />
+    <option name="width" value="666" />
+    <option name="height" value="838" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -112,9 +108,19 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="Course" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,17 +139,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ScalaTut">
-    <configuration name="HelloWorld (1)" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+  <component name="RunManager" selected="Application.new_Tuples">
+    <configuration name="NewMaps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="NewMaps" />
       <module name="HelloWorld" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
-      <module name="HelloWorld-build" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,22 +161,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
+    <configuration name="new_Tuples" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="new_Tuples" />
       <module name="HelloWorld" />
-      <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="consoleArgs" value="-usejavacp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="new_arrays" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="new_arrays" />
+      <module name="HelloWorld" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.new_Tuples" />
+        <item itemvalue="Application.NewMaps" />
+        <item itemvalue="Application.new_arrays" />
         <item itemvalue="Application.ScalaTut" />
         <item itemvalue="Application.conditionalStatments" />
-        <item itemvalue="Application.HelloWorld (1)" />
-        <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Scala Console.Scala Console" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559797889982</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Made some changes">
+      <created>1559798612493</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559798612493</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -260,37 +271,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-874" y="-1088" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="2146" y="-1081" width="666" height="838" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992" visible="true" weight="0.26226014" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992" weight="0.18585297" />
       <window_info id="Structure" order="1" sideWeight="0.5008" side_tool="true" weight="0.26226014" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.5008" side_tool="true" weight="0.26226014" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Learn" order="7" />
+      <window_info id="Learn" order="7" weight="0.32871014" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32808024" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32286024" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3252149" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.20368364" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32808024" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32808024" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32808024" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32808024" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24965326" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32871014" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="sbt" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="sbt" order="5" weight="0.32871014" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -299,7 +309,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Scala Hello world" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scala Hello world" />
+    <MESSAGE value="Made some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made some changes" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -315,20 +326,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/HelloWorld.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="345" selection-start-line="345" selection-end-line="345" />
+          <folding>
+            <element signature="e#29#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ImportantNotes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/HelloWorld.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="162" column="21" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
-          <folding>
-            <element signature="e#29#70#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
