@@ -268,98 +268,98 @@ object NewMaps extends  App{
 
 }
 
-object new_Tuples extends  App{
-  // Tuples can hold values of many types but they are immutable
-  var tupleMarage = (103, "Marge Simpson", 10.25)
-  printf("%s owes us $%.2f\n", tupleMarage._2, tupleMarage._3)
-
-  // Iterate through a tuple
-  tupleMarage.productIterator.foreach({i => println(i)})
-
-  // Convert the Tuple to a string
-  println(tupleMarage.toString())
+//object new_Tuples extends  App{
+//  // Tuples can hold values of many types but they are immutable
+//  var tupleMarage = (103, "Marge Simpson", 10.25)
+//  printf("%s owes us $%.2f\n", tupleMarage._2, tupleMarage._3)
+//
+//  // Iterate through a tuple
+//  tupleMarage.productIterator.foreach({i => println(i)})
+//
+//  // Convert the Tuple to a string
+//  println(tupleMarage.toString())
 
   // ==================== Classes ===================
   // Creating a Classes
 
-  class Animal(var name: String, var sound: String){
-    this.SetName(name)
-
-    // Animal Companion object
-    val id = Animal.newIdNum
-
-    // You must initialize all fields
-    // protected means the field can only be accessed directly
-    // by methods defined in the class of by subclass
-    // private fields can't be accessed by subclasses of Animal
-    // public fields can be accessed directly by anything
-
-    // protected var name = "No Name"
-    // protected var sound = "No sound"
-
-
-    // Getters and setters are used to protect the data
-    def getName() : String = name
-    def getSound() : String = sound
-    def setName(name : String): Unit ={
-      // Check if the string contains the numnbers and if so don;t allow
-      if(!(name.matches(".*\\d+.*"))){
-        this.name = name
-      }
-      else
-        this.name = "No Name"
-    }
-
-    def setSound(sound : String): Unit ={
-      this.sound = sound
-    }
-
-    // Sub classes can't call this constructor unlike with Java
-    def this(name:String){
-      this("No Name", "No Sound")
-      this.setName(name)
-    }
-
-    def this(){
-      // This calls the primary constructor defined on the class line
-      this("No Name", "No Sound")
-    }
-
-    // Override other method
-
-    override def toString: String = {
-      // How to format the strings
-      return "%s with the id %d says %s".format(this.name, this.id, this.sound)
-    }
-  }
-
-  // ------------------------- Inhertitance --------------------
-  // A class that inherits another gains all its fields and methods
-  // variables and functions in Java
-
-  object Animal{
-    private var idNumber = 0
-    private def newIdNum = {idNumber += 1; idNumber}
-  }
-
-  class Dog(name: String, sound : String, growl: String) extends Animal{
-
-  }
-
-
-
-
-  val rover = new Animal
-  rover.setName("Rover")
-  rover.setSound("Woof")
-
-  printf("%s says %s\n", rover.getName, rover.getSound)
-
-
-
-}
-
-
-
-
+//  class Animal(var name: String, var sound: String){
+//    this.SetName(name)
+//
+//    // Animal Companion object
+//    val id = Animal.newIdNum
+//
+//    // You must initialize all fields
+//    // protected means the field can only be accessed directly
+//    // by methods defined in the class of by subclass
+//    // private fields can't be accessed by subclasses of Animal
+//    // public fields can be accessed directly by anything
+//
+//    // protected var name = "No Name"
+//    // protected var sound = "No sound"
+//
+//
+//    // Getters and setters are used to protect the data
+//    def getName() : String = name
+//    def getSound() : String = sound
+//    def setName(name : String): Unit ={
+//      // Check if the string contains the numnbers and if so don;t allow
+//      if(!(name.matches(".*\\d+.*"))){
+//        this.name = name
+//      }
+//      else
+//        this.name = "No Name"
+//    }
+//
+//    def setSound(sound : String): Unit ={
+//      this.sound = sound
+//    }
+//
+//    // Sub classes can't call this constructor unlike with Java
+//    def this(name:String){
+//      this("No Name", "No Sound")
+//      this.setName(name)
+//    }
+//
+//    def this(){
+//      // This calls the primary constructor defined on the class line
+//      this("No Name", "No Sound")
+//    }
+//
+//    // Override other method
+//
+//    override def toString: String = {
+//      // How to format the strings
+//      return "%s with the id %d says %s".format(this.name, this.id, this.sound)
+//    }
+//  }
+//
+//  // ------------------------- Inhertitance --------------------
+//  // A class that inherits another gains all its fields and methods
+//  // variables and functions in Java
+//
+//  object Animal{
+//    private var idNumber = 0
+//    private def newIdNum = {idNumber += 1; idNumber}
+//  }
+//
+//  class Dog(name: String, sound : String, growl: String) extends Animal{
+//
+//  }
+//
+//
+//
+//
+//  val rover = new Animal
+//  rover.setName("Rover")
+//  rover.setSound("Woof")
+//
+//  printf("%s says %s\n", rover.getName, rover.getSound)
+//
+//
+//
+//}
+//
+//
+//
+//
 
