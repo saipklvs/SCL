@@ -25,4 +25,16 @@ import scala.math._
 // %s : Strings
 
 
+Explanation:
+=====================
+
+Uppper method  in  the upper class converts the strings to upper case and returns them in to an array
+The last line prints them on to the screen
+
+The class body is inside {....}
+The upper method definintion begins with an def and then the method name , an argument list, the
+return type of the method and an equals
+the argument lsit in paranthesis is actually a variable length argument of strings indicated by STring*
+The strings are strored in a variable called Strings
+
 
